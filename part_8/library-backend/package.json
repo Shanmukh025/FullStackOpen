@@ -1,0 +1,22 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon library-backend.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.7.0-alpha.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "graphql": "^14.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.2",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^1.19.1"
+  }
+}
